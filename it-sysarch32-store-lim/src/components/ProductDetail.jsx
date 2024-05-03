@@ -45,8 +45,8 @@ function ProductDetail() {
   return (
     <div>
       <header>
-        <h1>Shane Anime Store</h1>
-        <hr />
+        <h1><Link to="/" className="header-link">Shane Anime Store</Link></h1>
+         <hr />
       </header>
       <div className="container">
         <div className="product-detail">

@@ -70,7 +70,7 @@ body {
 
 
 .products-div{
-  margin-top: 20%;
+
   margin-left: 10%;
 
 }
@@ -146,6 +146,27 @@ body {
 .black-text {
   color: black;
 }
+
+.header-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+
+.header-link:hover,
+.header-link:active,
+.header-link:focus,
+.header-link:visited {
+  outline: none; /* Remove focus outline */
+}
+.image-above-products-div img {
+  max-width: 125%; 
+  max-height: 55vh; 
+  width: auto; 
+  height: auto; 
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
 
 
   

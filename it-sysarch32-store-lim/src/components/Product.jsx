@@ -55,11 +55,14 @@ function Product() {
     <div>
       {/* Header */}
       <header>
-        <h1>Shane Anime Store</h1>
-        <hr></hr>
+          <h1><Link to="/" className="header-link">Shane Anime Store</Link></h1>
+       <hr />
       </header>
+      
+      <div className="image-above-products-div">
+        <img src="https://firebasestorage.googleapis.com/v0/b/it-sysarch32-store-lim.appspot.com/o/naruto1.jpg?alt=media&token=38f9f41c-f2ca-433b-b0ec-223dfeb6606c" alt="Image Above Products" />
+      </div>
 
-      {/* Main Content */}
       <div className='products-div'>
         <h1>Featured Products</h1>
         <div className="product-container">
