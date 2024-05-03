@@ -1,0 +1,151 @@
+/* index.css */
+
+/* Styles for the entire page */
+body {
+  background-color: #000; /* Set background color of the entire page to black */
+  color: #fff; /* Set text color to white */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for the sign-up form */
+.form {
+  max-width: 400px;
+  margin: 50px auto; /* Center the form */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333; /* Changed form background color */
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555; /* Darkened border color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #444; /* Darkened input background color */
+  color: #fff; /* Changed text color to white */
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px; /* Added margin from top */
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+/* Error message style */
+.error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Styles for sign-in buttons */
+.google-sign-in {
+  margin-top: 20px; /* Added margin from top */
+}
+
+
+.products-div{
+  margin-top: 20%;
+  margin-left: 10%;
+
+}
+.product-container {
+    display:flex;
+    flex-wrap: wrap;
+    
+
+  }
+  .card {
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 200px; /* Set a fixed width for the card */
+    height: 300px; /* Set a fixed height for the card */
+    margin: 15px;
+  }
+  
+  .card img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; /* Ensure the image fills the width of the card */
+    height: 70%; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire card */
+    border-radius: 10px 10px 0 0; /* Optional: Rounded corners only on top */
+  }
+  
+  
+  .card p {
+    margin: 5px 0;
+  }
+
+  /* index.css */
+
+/* Centering the content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product-detail {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flexbox for layout */
+}
+
+.product-detail img {
+  max-width: 200px; /* Set max-width for the image */
+  border-radius: 5px;
+  margin-right: 20px; /* Add margin to separate image from other details */
+}
+
+.product-detail-details {
+  flex-grow: 1; /* Allow details to expand and fill remaining space */
+}
+
+.product-detail p {
+  margin: 10px 0;
+}
+
+.product-detail h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* index.css */
+
+.black-text {
+  color: black;
+}
+
+
+  
