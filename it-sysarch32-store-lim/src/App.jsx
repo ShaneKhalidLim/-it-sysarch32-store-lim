@@ -9,6 +9,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import Product from './components/Product';
 import ProductDetail from './components/ProductDetail';
+import Cart from './components/Cart';
 import Error404 from './components/Error404';
 
 function App() {
@@ -50,6 +51,8 @@ function App() {
               <Route path="/product/:id" element={user ? <ProductDetail user={user} /> : <Navigate to="/sign-in" />} />
               {/* Route for 404 error page */}
               <Route path="*" element={<Error404 />} />
+               {/* Route for Cart */}
+               <Route path="/cart" element={<Cart />} />
             </Routes>
           </Router>
         </>
